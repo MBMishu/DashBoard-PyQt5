@@ -47,3 +47,15 @@ pyside2-rcc resources.qrc -o resources_rc.py
 ```
 import sys from PySide2.QtWidgets import QApplication QMainWindow from ui_interface import Ui_MainWindow  class MainWindow(QMainWindow):     def __init__(self):         super(MainWindow self).__init__()         self.ui = Ui_MainWindow()         self.ui.setupUi(self)  if __name__ == "__main__":     app = QApplication(sys.argv)     window = MainWindow()     window.show()     sys.exit(app.exec_())
 ```
+
+<p>7. custom widgets</p>
+
+```
+pip install QT-PyQt-PySide-Custom-Widgets
+```
+
+<p>8. pip install PySide6</p>
+
+```
+pip install PySide6
+```

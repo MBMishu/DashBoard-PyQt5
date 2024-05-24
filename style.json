@@ -1,0 +1,65 @@
+{
+  "QMainWindow": [
+    {
+      "tittle": "DuboTech",
+      "icon": ":/images/logo.png",
+      "frameless": true,
+      "transluscentBg": true,
+      "sizeGrip": "size_grip",
+      "shadow": [
+        {
+          "blurRadius": 20,
+          "xOffset": 0,
+          "yOffset": 0,
+          "centralWidget": "centralwidget"
+        }
+      ],
+      "navigation": [
+        {
+          "minimize": "minimize_window_button",
+          "close": "close_window_button",
+          "restore": [
+            {
+              "buttonName": "restore_window_button",
+              "normalIcon": ":/icons/maximize-2.svg",
+              "maximizedIcon": ":/icons/minimize-2.svg"
+            }
+          ],
+          "moveWindow": "header_frame",
+          "tittleBar": "header_frame"
+        }
+      ]
+    }
+  ],
+
+  "QCustomQStackedWidget": [
+    {
+      "name": "stackedWidget",
+      "transitionAnimation": [
+        {
+          "slide": [
+            {
+              "active": true,
+              "duration": 1000,
+              "direction": "horizontal",
+              "easingCurve": "Linear"
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "navigationButtons": [
+            {
+              "percentageBtn": "percentage_chart",
+              "tempBtn": "temp_chart",
+              "nestedBtn": "nested_chart",
+              "lineBtn": "line_chart",
+              "barBtn": "bar_chart"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

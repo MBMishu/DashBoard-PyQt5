@@ -21,7 +21,7 @@ pip install pyqt5-tools
 <p>2. After installation you can run Qt Designer from the command line using the built-in launcher.</p>
 
 ```
-pyqt6-tools designer
+pyqt5-tools designer
 ```
 
 <p>3. Install PySide2</p>

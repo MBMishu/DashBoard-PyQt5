@@ -33,13 +33,13 @@ pip install PySide2
 <p>4. Convert .ui file to .py: Use pyside2-uic to convert your .ui file to a Python file:</p>
 
 ```
-pyside2-uic interface.ui -o ui_interface.py
+pyside6-uic interface.ui -o ui_interface.py
 ```
 
 <p>5. Convert .qrc file to .py: If you have a resource file (.qrc) convert it using pyside2-rcc</p>
 
 ```
-pyside2-rcc resources.qrc -o resources_rc.py
+pyside6-rcc resources.qrc -o resources_rc.py
 ```
 
 <p>6. main.py</p>
@@ -58,4 +58,8 @@ pip install QT-PyQt-PySide-Custom-Widgets
 
 ```
 pip install PySide6
+```
+
+```
+pyinstaller test.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclude PyQt6
 ```

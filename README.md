@@ -63,3 +63,13 @@ pip install PySide6
 ```
 pyinstaller test.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclude PyQt6
 ```
+
+if you are using pyfiglet then
+
+```
+pyinstaller test.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclude PyQt6 --add-data "<path-to-pyfiglet>/fonts:pyfiglet/fonts"
+```
+
+```
+pyinstaller test.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclude PyQt6 --add-data "G:/anaconda/envs/dubotech/lib/site-packages/pyfiglet/fonts:pyfiglet/fonts"
+```

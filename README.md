@@ -71,5 +71,5 @@ pyinstaller test.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclu
 ```
 
 ```
-pyinstaller test.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclude PyQt6 --add-data "G:/anaconda/envs/dubotech/lib/site-packages/pyfiglet/fonts:pyfiglet/fonts"
+pyinstaller main_2.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclude PyQt6 --add-data "c:\users\user\.conda\envs\dubotech\lib\site-packages/pyfiglet/fonts:pyfiglet/fonts"
 ```

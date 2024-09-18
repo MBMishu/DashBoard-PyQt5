@@ -71,5 +71,5 @@ pyinstaller test.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclu
 ```
 
 ```
-pyinstaller main_2.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclude PyQt6 --add-data "c:\users\user\.conda\envs\dubotech\lib\site-packages/pyfiglet/fonts:pyfiglet/fonts"
+pyinstaller main_2.py --icon favicon.ico --exclude PySide2 --exclude PyQt5 --exclude PyQt6 --add-data "c:\users\user\.conda\envs\dubotech\lib\site-packages/pyfiglet/fonts:pyfiglet/fonts" --add-data "google_map.html;." --add-data "octopus_mini_svg.svg;."
 ```
